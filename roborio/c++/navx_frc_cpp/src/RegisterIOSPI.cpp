@@ -5,6 +5,7 @@
  *      Author: Scott
  */
 
+#include <Timer.h>
 #include <RegisterIOSPI.h>
 #include <support/mutex.h>
 

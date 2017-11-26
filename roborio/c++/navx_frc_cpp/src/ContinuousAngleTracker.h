@@ -8,7 +8,7 @@
 #ifndef SRC_CONTINUOUSANGLETRACKER_H_
 #define SRC_CONTINUOUSANGLETRACKER_H_
 
-#include "WPILib.h"
+#include <support/mutex.h>
 
 class ContinuousAngleTracker {
 private:
@@ -18,7 +18,7 @@ private:
     float curr_yaw_angle;
     float last_yaw_angle;
     double angleAdjust;
-    std::mutex tracker_mutex;
+    wpi::mutex tracker_mutex;
 
     void Init();
 

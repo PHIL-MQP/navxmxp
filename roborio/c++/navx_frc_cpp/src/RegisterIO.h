@@ -15,7 +15,6 @@
 #include "AHRSProtocol.h"
 #include "IBoardCapabilities.h"
 #include "IIOCompleteNotification.h"
-#include "WPILib.h"
 
 class RegisterIO : public IIOProvider {
 private:

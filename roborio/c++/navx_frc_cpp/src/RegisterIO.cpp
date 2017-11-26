@@ -6,6 +6,7 @@
  */
 
 #include <RegisterIO.h>
+#include <Timer.h>
 #include "IMURegisters.h"
 #include "delay.h"
 

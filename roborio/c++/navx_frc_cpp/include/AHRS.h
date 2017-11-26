@@ -8,7 +8,11 @@
 #ifndef SRC_AHRS_H_
 #define SRC_AHRS_H_
 
-#include "WPILib.h"
+#include <SPI.h>
+#include <SerialPort.h>
+#include <PIDSource.h>
+#include <Timer.h>
+#include <I2C.h>
 #include "ITimestampedDataSubscriber.h"
 #include "networktables/NetworkTableEntry.h"
 #include <thread>

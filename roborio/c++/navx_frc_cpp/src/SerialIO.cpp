@@ -5,6 +5,8 @@
  *      Author: Scott
  */
 
+#include <Timer.h>
+#include <SmartDashboard/SmartDashboard.h>
 #include <SerialIO.h>
 #include "delay.h"
 
