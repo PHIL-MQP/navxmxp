@@ -9,10 +9,12 @@
 #define SRC_AHRS_H_
 
 #include <SPI.h>
+#include <SensorBase.h>
 #include <SerialPort.h>
 #include <PIDSource.h>
 #include <Timer.h>
 #include <I2C.h>
+#include <SmartDashboard/SendableBuilder.h>
 #include "ITimestampedDataSubscriber.h"
 #include "networktables/NetworkTableEntry.h"
 #include <thread>
